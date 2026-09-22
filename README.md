@@ -1,15 +1,6 @@
 # Student Management API
 
-A RESTful API built using Spring Boot and H2 Database.
-
-## Technologies Used
-
-- Java 21
-- Spring Boot 3
-- Spring Data JPA
-- H2 Database
-- Swagger OpenAPI
-- Maven
+A RESTful API built using Spring Boot, Spring Data JPA, MySQL, and Swagger UI.
 
 ## Features
 
@@ -18,19 +9,34 @@ A RESTful API built using Spring Boot and H2 Database.
 - Get Student By ID
 - Update Student
 - Delete Student
-- Validation
+- Input Validation
 - Exception Handling
+- MySQL Integration
+- Swagger Documentation
 
-## Run the Application
+## Tech Stack
 
-```bash
-mvn spring-boot:run
-```
+- Java 21
+- Spring Boot 3.5
+- Spring Data JPA
+- MySQL 8
+- Maven
+- Swagger/OpenAPI
+
+## API Endpoints
+
+| Method | Endpoint |
+|----------|-----------|
+| POST | /students |
+| GET | /students |
+| GET | /students/{id} |
+| PUT | /students/{id} |
+| DELETE | /students/{id} |
 
 ## Swagger UI
 
 http://localhost:8081/swagger-ui/index.html
 
-## H2 Console
+## Author
 
-http://localhost:8081/h2-console
+Sati Tulasi
